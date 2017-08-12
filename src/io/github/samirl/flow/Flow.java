@@ -58,6 +58,11 @@ public class Flow extends JFrame {
 		edit.add(italic);
 		edit.add(underline);
 		JMenu flow = new JMenu("Flow");
+		JMenuItem framing = new JMenu("Add Framing");
+		JMenuItem value = new JMenu("Add Value");
+		JMenuItem criterion = new JMenu("Add Criterion");
+		criterion.setToolTipText("Also known as the standard");
+		JMenuItem contention = new JMenu("Add Contention");
 		bar.add(file);
 		bar.add(edit);
 		bar.add(flow);
